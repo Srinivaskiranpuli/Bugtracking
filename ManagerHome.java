@@ -39,11 +39,11 @@ public class ManagerHome extends Activity {
 	Bug.setOnClickListener(new View.OnClickListener() {
 		
 		@Override
-		public void onClick(View v) {
+		public void onClick(View v) {{
 			// TODO Auto-generated method stub
 			Intent i=new Intent(ManagerHome.this,BugStatus.class);
 			startActivity(i);
-		}
+		}}
 	});
 	Ap.setOnClickListener(new View.OnClickListener() {
 		
