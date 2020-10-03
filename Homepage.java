@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+mport android.widget.Button;
 
 public class Homepage extends Activity {
 	Button mr,dr,tr,vr,log;
@@ -57,7 +58,7 @@ public class Homepage extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent a2=new Intent(Homepage.this,View Registration.class);
+				Intent a2=new Intent(Homepage.this,ViewRegistration.class);
 				startActivity(a2);
 				
 			}
