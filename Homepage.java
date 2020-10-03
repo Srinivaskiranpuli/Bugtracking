@@ -57,7 +57,7 @@ public class Homepage extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent a2=new Intent(Homepage.this,TestRegistration.class);
+				Intent a2=new Intent(Homepage.this,View Registration.class);
 				startActivity(a2);
 				
 			}
