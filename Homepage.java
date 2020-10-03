@@ -10,7 +10,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Homepage extends Activity {
-	Button mr,dr,tr,log;
+	Button mr,dr,tr,vr,log;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class Homepage extends Activity {
 		mr=(Button)findViewById(R.id.Mr);
 		dr=(Button)findViewById(R.id.Dr);
 		tr=(Button)findViewById(R.id.Tr);
+		vr=(Button)findViewById(R.id.vr);
 		log=(Button)findViewById(R.id.Li);
 		
 	    mr.setOnClickListener(new OnClickListener() {
@@ -51,6 +52,17 @@ public class Homepage extends Activity {
 				
 			}
 		});
+		vr.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent a2=new Intent(Homepage.this,TestRegistration.class);
+				startActivity(a2);
+				
+			}
+		});
+		
 log.setOnClickListener(new OnClickListener() {
 			
 			@Override
